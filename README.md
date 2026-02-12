@@ -28,6 +28,7 @@ Profit (DOUBLE)
 Project Objectives
 
 Build SQL queries that reflect real-world KPIs used in retail analytics.
+
 Showcase basic queries (retrieval, filtering, grouping) and complex queries (profitability analysis, discount impact, contribution percentages).
 
 Demonstrate advanced SQL techniques:
@@ -38,13 +39,19 @@ Aggregations and conditional logic
 
 Key KPIs Covered
 
-Profit Margin Analysis (Region, Segment, Category)
-Loss Contribution (Negative profit by region)
-Discount Effectiveness (Discount rate vs. margin)
-Shipment Mode Distribution (Customer segment preferences)
-Revenue Contribution (Sub-category share within category)
-Top Performers (Cities, States, Sub-categories ranked by profit/margin)
-Trend Analysis (Lag comparisons, moving averages)
+1.Profit Margin Analysis (Region, Segment, Category)
+
+2.Loss Contribution (Negative profit by region)
+
+3.Discount Effectiveness (Discount rate vs. margin)
+
+4.Shipment Mode Distribution (Customer segment preferences)
+
+5.Revenue Contribution (Sub-category share within category)
+
+6.Top Performers (Cities, States, Sub-categories ranked by profit/margin)
+
+7.Trend Analysis (Lag comparisons, moving averages)
 
 Query Highlights
 
