@@ -6,6 +6,7 @@ This project contains a collection of SQL queries designed to analyze a Supersto
 The queries are structured to demonstrate both basic SQL proficiency and advanced analytical techniques (CTEs, window functions, ranking, contribution analysis). Each query is tied to industry-standard KPIs relevant to retail businesses.
 
 Dataset Schema
+
 Table: superstore
 Ship_Mode (TEXT)
 Segment (TEXT)
@@ -25,6 +26,7 @@ Cost (DOUBLE)
 Profit (DOUBLE)
 
 Project Objectives
+
 Build SQL queries that reflect real-world KPIs used in retail analytics.
 Showcase basic queries (retrieval, filtering, grouping) and complex queries (profitability analysis, discount impact, contribution percentages).
 
@@ -35,6 +37,7 @@ Window Functions (RANK, ROW_NUMBER, LAG, cumulative sums)
 Aggregations and conditional logic
 
 Key KPIs Covered
+
 Profit Margin Analysis (Region, Segment, Category)
 Loss Contribution (Negative profit by region)
 Discount Effectiveness (Discount rate vs. margin)
@@ -44,6 +47,7 @@ Top Performers (Cities, States, Sub-categories ranked by profit/margin)
 Trend Analysis (Lag comparisons, moving averages)
 
 Query Highlights
+
 Regional Profit Margin – Revenue vs. Profit margin by region.
 
 Regional Loss Contribution – Identifies regions with negative profit.
@@ -75,22 +79,26 @@ State Contribution to Regional Profit – State-level share of regional profit.
 Sub-Category Contribution to Category Revenue – Sub-category share within category.
 
 Tech Stack
+
 Database: MySQL
 Tooling: MySQL Workbench
 Techniques: SQL Aggregations, CTEs, Window Functions, Ranking, Contribution Analysis
 
 How to Use
+
 Clone the repository.
 Import the superstore dataset into MySQL.
 Run queries in MySQL Workbench or any SQL client.
 Explore results to derive insights into retail KPIs.
 
 Applications
+
 Retail business performance dashboards
 Profitability and discount optimization analysis
 Customer segmentation and shipment strategy
 Interview-ready SQL portfolio showcasing advanced analytics
 
 📌 Author
+
 Ranit Barman  
 Passionate about financial modeling, SQL analytics, and KPI-driven insights. Building a portfolio for analyst roles with a focus on Private Equity / Research Analyst positions
